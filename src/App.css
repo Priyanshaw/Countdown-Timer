@@ -4,8 +4,40 @@
   height: 60vh;
   width: 80vw;
   border: 5px solid black;
-  border-radius: 10px;
+  border-radius: 5rem;
   background-color: beige;
   font-size: 1.5rem;
   font-weight: 700;
+  transition: 1s all ease-in-out;
+  box-sizing: border-box;
+  
+}
+
+/* .container:hover{
+  
+  padding: 20px;
+  width: 78vw;
+  height: 62vh;
+} */
+input{
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+button{
+  padding: 8px;
+  border: 2px solid black;
+  margin-right: 32px;
+  background-color: #e4e4dc;
+  border-radius: 8px;
+  transition: 0.3s all ease-in-out;
+}
+button:hover{
+  background-color: #474545;
+  color: #fff;
+  cursor: pointer;
 }
